@@ -1,0 +1,16 @@
+A general project exploring programming various physical properties. Features so far:
+
+-  A GUI window that renders the scene. Supports moving aroung the viewport with WASD
+   and zooming in and out by scrolling the mouse.
+
+-  Objects can be placed in the scene. Objects have mass, charge, and other physical properties
+
+-  Objects can attract or repel each other based on their charge
+
+-  Objects can gravitate toward each other based on their mass
+
+-  Objects can be accelerated downward to simulate gravity
+
+-  Objects can be atttached to one another by springs, which obey Hooke's law
+
+-  Rendering and updating use separate timing and are run in separate threads, as is the GUI.
