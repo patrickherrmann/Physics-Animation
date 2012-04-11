@@ -30,8 +30,8 @@ public final class Scene implements Paintable {
         fixed.setCharge(1.0);
         Ball ball = new Ball(50, 100);
         Ball ball2 = new Ball(100, 200);
-        Spring spring = new Spring(fixed, ball, 200, 0.0015);
-        Spring spring2 = new Spring(ball, ball2, 200, 0.0015);
+        Spring spring = new Spring(fixed, ball, 200, 0.002);
+        Spring spring2 = new Spring(ball, ball2, 200, 0.002);
         add(ball2);
         add(spring2);
         add(spring);

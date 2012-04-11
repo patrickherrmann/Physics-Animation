@@ -64,6 +64,7 @@ public abstract class KineticUnit extends Unit {
         //kinetics.applyEletromagneticForce(this);
         kinetics.enforceBoundingBox(this);
         kinetics.applyDownwardGravity(this);
+        kinetics.applyDamping(this);
         x += vx;
         y += vy;
     }

@@ -86,4 +86,8 @@ public class Kinetics {
         kunit.applyAcceleration(FG);
     }
     
+    public void applyDamping(KineticUnit kunit) {
+        kunit.applyForce(kunit.getVelocity().getOpposite().setMagnitude(0.01));
+    }
+    
 }
